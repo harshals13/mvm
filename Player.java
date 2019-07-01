@@ -1,7 +1,7 @@
 public class Player {
-    private String playerName;
+     String playerName;
 
-    private int playerScore;
+     int playerScore;
 
 	public Player(String name, int score) {
 		// TODO Auto-generated constructor stub
@@ -10,19 +10,4 @@ public class Player {
 		this.playerScore =score;
 	}
 
-	public String getPlayerName() {
-		return playerName;
-	}
-
-	public void setPlayerName(String playerName) {
-		this.playerName = playerName;
-	}
-
-	public int getPlayerScore() {
-		return playerScore;
-	}
-
-	public void setPlayerScore(int playerScore) {
-		this.playerScore = playerScore;
-	}
 }
